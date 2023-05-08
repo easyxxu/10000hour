@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "OTEnjoystoriesBA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 102px;
+}
+.explain {
+  font-family: "OTEnjoystoriesBA";
+  font-size: 36px;
+  color: rgba(245, 223, 77, 1);
+  margin-bottom: 78px;
+}
+.rule-explain {
+  position: relative;
+  font-family: "GmarketSansMedium";
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  line-height: 36px;
+}
+.rule-explain::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -18%;
+  width: 493px;
+  height: 96px;
+  background: url(../../img/quotes.png) no-repeat center;
+}
+.rule-explain span {
+  font-size: 24px;
+  font-weight: 700;
+}

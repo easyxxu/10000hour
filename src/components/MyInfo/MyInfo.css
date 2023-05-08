@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.wrap-ihaveto {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 27px;
+}
+
+.wrap-ihaveto input {
+  width: 228px;
+  box-sizing: border-box;
+  padding: 19px 39px;
+  margin: 0 17px;
+  font-size: 24px;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+input::placeholder {
+  color: #babcbe;
+}
+
+.btn-cnt {
+  background: #f5df4d;
+  font-family: "GmarketSansMedium";
+  font-size: 24px;
+  font-weight: 700;
+  color: #5b2386;
+  margin-top: 88px;
+  padding: 21px 49px;
+  width: 565px;
+  cursor: pointer;
+  border-radius: 56px;
+  -webkit-border-radius: 56px;
+  -moz-border-radius: 56px;
+  -ms-border-radius: 56px;
+  -o-border-radius: 56px;
+}

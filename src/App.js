@@ -13,8 +13,6 @@ function App() {
   const [time, setTime] = useState("");
   const [input, setInput] = useState(false);
   const [result, setResult] = useState(false);
-  // console.log("input:", input);
-  // console.log("result:", result);
   return (
     <>
       <Header />

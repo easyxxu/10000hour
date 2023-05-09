@@ -40,7 +40,6 @@ input::placeholder {
   font-size: 24px;
   font-weight: 700;
   color: #5b2386;
-  margin-top: 88px;
   padding: 21px 49px;
   width: 565px;
   cursor: pointer;
@@ -50,10 +49,13 @@ input::placeholder {
   -ms-border-radius: 56px;
   -o-border-radius: 56px;
 }
-.btn-cnt::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: url(../../img/click.png) no-repeat center;
+.section-myInfo .btn-box {
+  margin-top: 88px;
+}
+.section-myInfo .btn-box img {
+  transform: translateY(55px);
+  -webkit-transform: translateY(55px);
+  -moz-transform: translateY(55px);
+  -ms-transform: translateY(55px);
+  -o-transform: translateY(55px);
 }

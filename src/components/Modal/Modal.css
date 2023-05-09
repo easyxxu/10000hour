@@ -1,0 +1,58 @@
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.modal-box {
+  font-family: "OTEnjoystoriesBA";
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 76px 146px 68px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #5b2386;
+  background-color: #fff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  text-align: center;
+}
+.modal-box h2 {
+  font-size: 96px;
+}
+.modal-box h3 {
+  font-size: 36px;
+  margin-bottom: 33px;
+}
+.btn-modal-close {
+  background: #f5df4d;
+  font-family: "GmarketSansMedium";
+  font-size: 24px;
+  font-weight: 700;
+  color: #5b2386;
+  padding: 21px 49px;
+  width: 508px;
+  cursor: pointer;
+  margin-top: 74px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 56px;
+  -webkit-border-radius: 56px;
+  -moz-border-radius: 56px;
+  -ms-border-radius: 56px;
+  -o-border-radius: 56px;
+}

@@ -1,6 +1,6 @@
 // import { useState } from "react";
 import "./MyInfo.css";
-
+import click from "../../img/click.png";
 export default function MyInfo({ expert, time, input, result }) {
   const btnCount = (e) => {
     input(true);
@@ -10,12 +10,12 @@ export default function MyInfo({ expert, time, input, result }) {
     }, 4000);
   };
   const changeExpert = (e) => {
-    console.log("expert : ", e.target.value);
+    // console.log("expert : ", e.target.value);
     expert(e.target.value);
   };
   const changeTime = (e) => {
     time(Math.floor(10000 / e.target.value));
-    console.log("time : ", Math.floor(10000 / e.target.value));
+    // console.log("time : ", Math.floor(10000 / e.target.value));
   };
   return (
     <section className="section-myInfo">
@@ -33,9 +33,12 @@ export default function MyInfo({ expert, time, input, result }) {
         <input type="number" placeholder="예)5" onChange={changeTime} />
         <p>시간씩 훈련할 것이다.</p>
       </div>
-      <button className="btn-cnt" onClick={btnCount}>
-        나는 며칠 동안 훈련을 해야 1만 시간이 될까?
-      </button>
+      <div className="btn-box">
+        <button className="btn-cnt" onClick={btnCount}>
+          나는 며칠 동안 훈련을 해야 1만 시간이 될까?
+        </button>
+        <img src={click} alt="click" />
+      </div>
     </section>
   );
 }

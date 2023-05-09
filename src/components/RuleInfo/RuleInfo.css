@@ -5,11 +5,13 @@
   font-weight: normal;
   font-style: normal;
 }
-article {
+section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.section-explain {
   margin-bottom: 102px;
 }
 .explain {

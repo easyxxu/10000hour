@@ -5,6 +5,10 @@
   font-weight: normal;
   font-style: normal;
 }
+.section-myInfo {
+  margin-bottom: 147px;
+  position: relative;
+}
 .wrap-ihaveto {
   display: flex;
   flex-direction: row;
@@ -45,4 +49,11 @@ input::placeholder {
   -moz-border-radius: 56px;
   -ms-border-radius: 56px;
   -o-border-radius: 56px;
+}
+.btn-cnt::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(../../img/click.png) no-repeat center;
 }

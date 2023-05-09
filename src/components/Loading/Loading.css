@@ -1,0 +1,15 @@
+.loading-box {
+  margin: 0 auto;
+  width: 225px;
+  height: 225px;
+  margin-bottom: 147px;
+  background: url(../../img/loading.png) no-repeat center;
+  animation: rotate_image 6s linear infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: rotate_image 6s linear infinite;
+}
+@keyframes rotate_image {
+  100% {
+    transform: rotate(360deg);
+  }
+}

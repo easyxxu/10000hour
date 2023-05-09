@@ -1,0 +1,32 @@
+.section-training {
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+  margin: 127px 0 130px;
+}
+.btn-training {
+  background: #f5df4d;
+  font-family: "GmarketSansMedium";
+  font-size: 24px;
+  font-weight: 700;
+  color: #5b2386;
+  padding: 21px 49px;
+  width: 356px;
+  cursor: pointer;
+  border-radius: 56px;
+  -webkit-border-radius: 56px;
+  -moz-border-radius: 56px;
+  -ms-border-radius: 56px;
+  -o-border-radius: 56px;
+}
+.btn-share {
+  font-family: "GmarketSansMedium";
+  font-size: 24px;
+  width: 191px;
+  box-sizing: border-box;
+  padding: 21px 49px;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 56px;
+  color: #5b2386;
+}

@@ -2,7 +2,7 @@ import "./RuleInfo.css";
 
 export default function RuleInfo() {
   return (
-    <article>
+    <section className="section-explain">
       <p className="explain">"연습은 어제의 당신보다 당신을 더 낫게 만든다.</p>
       <p className="rule-explain">
         <span>1만 시간의 법칙</span>은<br />
@@ -10,6 +10,6 @@ export default function RuleInfo() {
         <br />
         최소한 1만 시간의 훈련이 필요하다는 법칙이다.
       </p>
-    </article>
+    </section>
   );
 }

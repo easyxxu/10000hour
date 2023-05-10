@@ -19,10 +19,10 @@ function App() {
       <main>
         <RuleInfo />
         <MyInfo
-          expert={setExpert}
-          time={setTime}
-          input={setInput}
-          result={setResult}
+          setExpert={setExpert}
+          setTime={setTime}
+          setInput={setInput}
+          setResult={setResult}
         />
         {input && <Loading />}
         {result && (
@@ -31,7 +31,6 @@ function App() {
             <GoTraining />
           </>
         )}
-        {/* <DayCount expert={expert} time={time} /> */}
       </main>
       <Footer />
     </>

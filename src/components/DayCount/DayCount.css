@@ -1,4 +1,4 @@
-.wrap-count {
+.wrap-count:first-child {
   margin-bottom: 17px;
 }
 .wrap-count span {

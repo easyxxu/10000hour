@@ -6,7 +6,7 @@
 }
 .btn-training {
   background: #f5df4d;
-  font-family: "GmarketSansMedium";
+  font-family: "gmarketBold";
   font-size: 24px;
   font-weight: 700;
   color: #5b2386;
@@ -20,7 +20,7 @@
   -o-border-radius: 56px;
 }
 .btn-share {
-  font-family: "GmarketSansMedium";
+  font-family: "gmarketBold";
   font-size: 24px;
   width: 191px;
   box-sizing: border-box;

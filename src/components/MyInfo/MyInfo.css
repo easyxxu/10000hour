@@ -39,9 +39,8 @@ input::placeholder {
 
 .btn-submit {
   background: #f5df4d;
-  font-family: "GmarketSansMedium";
+  font-family: "gmarketBold";
   font-size: 24px;
-  font-weight: 700;
   color: #5b2386;
   padding: 21px 49px;
   width: 565px;

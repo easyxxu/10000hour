@@ -5,6 +5,10 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "gmarketBold";
+  src: url("../src/font/GmarketSansBold.otf") format("truetype");
+}
 body {
   background: #5b2386;
   color: #fff;

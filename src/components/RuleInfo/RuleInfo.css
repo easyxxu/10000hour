@@ -38,6 +38,7 @@ section {
   background: url(../../img/quotes.png) no-repeat center;
 }
 .rule-explain span {
+  font-family: "gmarketBold";
   font-size: 24px;
   font-weight: 700;
 }

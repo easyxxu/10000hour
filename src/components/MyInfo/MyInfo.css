@@ -1,10 +1,3 @@
-@font-face {
-  font-family: "GmarketSansMedium";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
-    format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
 .section-myInfo {
   margin-bottom: 147px;
   position: relative;
@@ -22,6 +15,7 @@
   margin-bottom: 24px;
 }
 .section-myInfo form input {
+  font-family: "GmarketSansMedium";
   width: 228px;
   box-sizing: border-box;
   padding: 19px 39px;
@@ -45,6 +39,7 @@ input::placeholder {
   padding: 21px 49px;
   width: 565px;
   cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   border-radius: 56px;
   -webkit-border-radius: 56px;
   -moz-border-radius: 56px;

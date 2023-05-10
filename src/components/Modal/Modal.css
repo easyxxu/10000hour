@@ -41,12 +41,12 @@
 }
 .btn-modal-close {
   background: #f5df4d;
-  font-family: "GmarketSansMedium";
+  font-family: "gmarketBold";
   font-size: 24px;
-  font-weight: 700;
   color: #5b2386;
-  padding: 21px 49px;
+  padding: 21px 45px;
   width: 508px;
+  box-sizing: border-box;
   cursor: pointer;
   margin-top: 74px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);

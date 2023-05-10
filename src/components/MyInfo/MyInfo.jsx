@@ -4,6 +4,7 @@ import click from "../../img/click.png";
 export default function MyInfo({ expert, time, input, result }) {
   const btnCount = (e) => {
     input(true);
+    result(false);
     setTimeout(() => {
       input(false);
       result(true);

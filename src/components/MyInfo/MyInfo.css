@@ -9,16 +9,19 @@
   margin-bottom: 147px;
   position: relative;
 }
-.wrap-ihaveto {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+.section-myInfo form {
   font-size: 24px;
   color: #fff;
   margin-bottom: 27px;
+  text-align: center;
 }
-
-.wrap-ihaveto input {
+.section-myInfo label {
+  display: block;
+}
+.section-myInfo label:first-child {
+  margin-bottom: 24px;
+}
+.section-myInfo form input {
   width: 228px;
   box-sizing: border-box;
   padding: 19px 39px;
@@ -34,7 +37,7 @@ input::placeholder {
   color: #babcbe;
 }
 
-.btn-cnt {
+.btn-submit {
   background: #f5df4d;
   font-family: "GmarketSansMedium";
   font-size: 24px;
